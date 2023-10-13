@@ -40,7 +40,7 @@ class IntroPage extends StatelessWidget {
             color: Colors.grey[600],
           ),
         ),
-
+  
         const Spacer(),
 
         //Get Started
@@ -53,16 +53,19 @@ class IntroPage extends StatelessWidget {
               },
             ),
           ),
-          child: Container(
-            decoration: BoxDecoration(
-                color: Colors.blueAccent,
-                borderRadius: BorderRadius.circular(8.0)),
-            child: const Padding(
-              padding: EdgeInsets.all(24),
-              child: Text(
-                "Get Started",
-                style: TextStyle(color: Colors.white),
-              ),
+          child: Padding( 
+            padding: const EdgeInsets.only(bottom: 12.0),
+            child: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blueAccent,
+                  borderRadius: BorderRadius.circular(8.0)),
+              child: const Padding(
+                padding: EdgeInsets.all(24),
+                child: Text(
+                  "Get Started",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),  
             ),
           ),
         ),

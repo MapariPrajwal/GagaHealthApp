@@ -96,8 +96,8 @@ class BuyPage extends StatelessWidget {
                             border: Border.all(color: Colors.grey.shade100),
                             borderRadius: BorderRadius.circular(12)),
                         padding: const EdgeInsets.all(12),
-                        child: Row(
-                          children: const [
+                        child: const Row(
+                          children: [
                             Text("Pay Now",
                                 style: TextStyle(
                                   color: Colors.white,
